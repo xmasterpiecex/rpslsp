@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.pCh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.btn {
+  font-size: 28px;
+  border: none;
+  padding: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.res {
+  color: aliceblue;
+  font-size: 36px;
+  font-family: sans-serif;
+}
+
+.view {
+  visibility: hidden;
+}
